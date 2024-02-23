@@ -1,9 +1,4 @@
-"""
-Name: Sharvan Saikumar
-Student ID: 33918236
-Date: November 30, 2023
-Description: This program is going to simulate a game known as "Rise from (Mon)Ashes"
-"""
+__author__ = 'inclyped'
         
 # List of names provided to the automicatic naming algorithm
 DEFAULT_CHARACTER_LIST = ['HOMELANDER', 'IMAN', 'TERMINATOR', 'LELO MUSK', 'MR. MONASH', 
@@ -548,8 +543,6 @@ named BERYL where Sentient Artificial Intelligence Bots have taken over.\n""")
                 print(f"{currentCharacter} has successfully escaped the maze!\n\nAI BOTS SUCCESSFULLY DEFEATED!\n\n")
                 reachedEnd = True
             print()
-            
-            
             
     for name in listOfNames:
         start_game(name)
