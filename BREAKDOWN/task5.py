@@ -21,6 +21,7 @@ def find_consonants(word):
     Returns:
     count: int - The number of consonants present in a given word.
     """
+    
     count = 0
     not_consonants = ['A', 'E', 'I', 'O', 'U', ' ', '.']
     for ch in word:
