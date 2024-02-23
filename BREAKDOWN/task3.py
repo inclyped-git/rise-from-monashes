@@ -4,14 +4,14 @@ on the variable dollarIndicator.
 """
 
 # taking initial dorabies, doubloons, and dusts and storing them in a list startingFundsList[]
-startingFundsList = list(map(int, input("BERYL DOLLAR COLLECTION OR DEPLETION\nEnter number of Dorabie, Doubloon and Dust: ").split()))
+startingFundsList = list( map( int, input("BERYL DOLLAR COLLECTION OR DEPLETION\nEnter number of Dorabie, Doubloon and Dust:\n").split() ) )
 
 # inquiring about the exchange rates
-dustsToDoubloons_rate = int(input("Enter the Dusts-to-Doubloons exchange rate: "))
-doubloonsToDorabies_rate = int(input("Enter the Doubloons-to-Dorabies exchange rate: "))
+dustsToDoubloons_rate = int(input("Enter the Dusts-to-Doubloons exchange rate:\n"))
+doubloonsToDorabies_rate = int(input("Enter the Doubloons-to-Dorabies exchange rate:\n"))
 
 # getting the dollar indicator
-dollarIndicator = int(input("Enter the Dollar Indicator: "))
+dollarIndicator = int(input("Enter the Dollar Indicator:\n"))
 
 # converting dollarIndicator into dusts
 totalDusts = 0
@@ -38,7 +38,7 @@ else: # if dollar indicator is negative.
     print("Lost {0} Dorabies, {1} Doubloons and 0 Dusts".format( - convertedDorabies, - remainingDollarIndicator)) # prints number of dorabie, doubloons going to be lost from the starting funds.
     
     totalDusts = ( remainingDollarIndicator * dustsToDoubloons_rate ) + ( convertedDorabies * (dustsToDoubloons_rate * doubloonsToDorabies_rate) ) # convert all of the converted units back to dusts.
-    
+
 # getting the starting dorabie, doubloon, and dust amounts from the list startingFundsList[]
 startingDorabies = startingFundsList[0]
 startingDoubloons = startingFundsList[1]
