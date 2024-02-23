@@ -1,4 +1,4 @@
-# array of dollar indicators
+                         # array of dollar indicators
 BERYL_MAZE = [
   [300, -13, 189, -15, -12, 203, -23, 587, -78, 321, -46],
   [300, -11, -13, -24, 365, 198, -34, -21, 789, -81, -53],
