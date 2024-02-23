@@ -21,5 +21,5 @@ BERYL_MAZE[desiredPosition[0]][desiredPosition[1]] = "<" + characterName.upper()
 # printing the overall array with the new changes.
 for i in range(len(BERYL_MAZE)):
     for j in range(len(BERYL_MAZE[0])):
-        print(BERYL_MAZE[i][j], end=" ")
+        print(BERYL_MAZE[i][j], end="   ")
     print()
